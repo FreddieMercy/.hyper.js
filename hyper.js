@@ -116,11 +116,12 @@ module.exports = {
     "hyperborder",
     "hyperterm-tab-icons",
     "hyper-blink",
-    "hyperterm-cursor"
+    "hyperterm-cursor",
+    "hyperterm-cobalt2-theme"
   ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: ['hyperterm-cobalt2-theme']
+  localPlugins: []
 };
