@@ -87,7 +87,7 @@ module.exports = {
     bell: "SOUND",
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: true
+    copyOnSelect: true,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -97,6 +97,10 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    
+    hyperRun: ['export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear'],
+    hyperRunTab: ['export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear']
+
   },
 
   // a list of plugins to fetch and install from npm
@@ -117,7 +121,8 @@ module.exports = {
     "hyperterm-tab-icons",
     "hyper-blink",
     "hyperterm-cursor",
-    "hyperterm-cobalt2-theme"
+    "hyperterm-cobalt2-theme",
+    "hyper-run"
   ],
 
   // in development, you can create a directory under
