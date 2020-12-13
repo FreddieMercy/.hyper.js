@@ -5,5 +5,8 @@ cp ~/.bash_profile bash_profile
 cp ~/.hyper.js hyper.js 
 
 git add **
-git commit -m "Update files"+%T
+
+TimeStamp="Update files "+$(date)
+
+git commit -m "$TimeStamp"
 git push
