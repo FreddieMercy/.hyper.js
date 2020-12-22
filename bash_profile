@@ -5,3 +5,4 @@ export ANDROID_PLATFORM_TOOLS=~/Library/Android/sdk/platform-tools/
 export ANDROID_HOME=~/Library/Android
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH 
+export PATH=$PATH:$JAVA_HOME/bin
