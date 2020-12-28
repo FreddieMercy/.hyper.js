@@ -6,3 +6,7 @@ export PATH=$PATH:$ANDROID_PLATFORM_TOOLS
 export PATH=$PATH:~/Library/Android/sdk/tools/bin
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+
+export PATH=/usr/local/opt/python@3.8/bin:$PATH
+
+alias python=/usr/local/bin/python3
