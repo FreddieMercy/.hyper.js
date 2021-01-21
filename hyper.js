@@ -98,8 +98,8 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     
-    hyperRun: ['omz update', 'export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear'],
-    hyperRunTab: ['omz update', 'export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear']
+    hyperRunTab: [/*'omz update',*/ 'export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear'],
+    hyperRun: ['omz update', 'export ZSH_THEME=cobalt2', 'source $ZSH/oh-my-zsh.sh', 'source ~/.bash_profile', 'clear']
 
   },
 
