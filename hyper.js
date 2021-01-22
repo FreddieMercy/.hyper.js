@@ -122,7 +122,8 @@ module.exports = {
     "hyper-blink",
     "hyperterm-cursor",
     "hyperterm-cobalt2-theme",
-    "hyper-run"
+    "hyper-run",
+    "autoupdate"
   ],
 
   // in development, you can create a directory under
