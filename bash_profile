@@ -7,6 +7,12 @@ export PATH=$PATH:~/Library/Android/sdk/tools/bin
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
+export MAVEN_HOME=/usr/local/opt/maven/libexec
+export PATH=$MAVEN_HOME/bin:$PATH
+
+export GRADLE_HOME=/usr/local/opt/gradle/libexec
+export PATH=$GRADLE_HOME/bin:$PATH
+
 export PATH=/usr/local/opt/python@3.8/bin:$PATH
 
 alias python=/usr/local/bin/python3
