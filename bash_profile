@@ -13,6 +13,9 @@ export PATH=$MAVEN_HOME/bin:$PATH
 export GRADLE_HOME=/usr/local/opt/gradle/libexec
 export PATH=$GRADLE_HOME/bin:$PATH
 
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export PATH=$GROOVY_HOME/bin:$PATH
+
 export PATH=/usr/local/opt/python@3.8/bin:$PATH
 
 alias python=/usr/local/bin/python3
