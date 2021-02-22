@@ -7,8 +7,10 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 14,
 
+    webGLRenderer: false,
+
     // font family with optional fallbacks
-    fontFamily: '"Inconsolata-dz for Powerline", "DejaVu Sans Mono",Monaco, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Cascadia Code","Inconsolata-dz for Powerline", "DejaVu Sans Mono",Monaco, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "rgba(248,28,229,0.8)",
 
@@ -123,7 +125,8 @@ module.exports = {
     "hyperterm-cursor",
     "hyperterm-cobalt2-theme",
     "hyper-run",
-    "autoupdate"
+    "autoupdate",
+    "hyper-font-ligatures"
   ],
 
   // in development, you can create a directory under
