@@ -9,3 +9,5 @@ Issues like the error "execvp(3) failed: No such file or directory" : https://gi
 Run cmd on startup of hyper: https://github.com/DanInglis/hyper-run
 
 Plugin that can automatically update other plugins: https://github.com/TamCore/autoupdate-oh-my-zsh-plugins
+
+Cascadia Code Download: https://github.com/microsoft/cascadia-code/releases
