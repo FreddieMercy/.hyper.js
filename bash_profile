@@ -18,7 +18,7 @@ export PATH=$GROOVY_HOME/bin:$PATH
 
 export PATH=/usr/local/opt/python@3/bin:$PATH
 
-alias python=/usr/local/bin/python3
+alias python=python3
 #alias pip=/usr/local/bin/pip3
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
